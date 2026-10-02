@@ -1,0 +1,19 @@
+{
+  "id": 844,
+  "title": "Roof Inspection Drone Image Geotagging",
+  "repository_slug": "roof-inspection-drone-image-geotagging",
+  "category": "Drones",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "MAVLink",
+  "components": [
+    "barometer"
+  ],
+  "scope": "Build a drones prototype that uses barometer to associate captured images with coordinates. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Image Geotagging demonstration with repeatable test steps",
+  "mode": "edge_classification",
+  "entrypoint": "firmware/roof-inspection-drone-image-geotagging/roof-inspection-drone-image-geotagging.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
